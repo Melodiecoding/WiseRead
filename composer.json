@@ -1,0 +1,19 @@
+{
+    "name": "melodieot/wise-reader",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "moi"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.0",
+        "davechild/textstatistics": "1.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
